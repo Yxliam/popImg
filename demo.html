@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-box">
+        我是文字我是文字
+        <img src="./images/1.jpg" alt="">
+        <div>我是文字我是文字我是文字我是文字</div>
+        <img src="./images/3.jpg" alt="">
+        <div>我是文字我是文字我是文字我是文字</div>
+        <img src="./images/4.jpg" alt="">
+        <img src="https://ah.yxlblog.com/static/upload/1541990795193-sm.png" alt="">
+        <div>我是文字我是文字我是文字我是文字</div>
+        <img src="./images/6.jpg" alt="">
+    </div>
+    <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.js"></script>
+    <script src="./popimg.js"></script>
+    <script>
+       $(function(){
+           //使用方式，把需要展示图片的父节点传入即可
+            var popImg = new PopImg({
+                imgContainer:'.main-box'
+            });
+       })
+    </script>
+</body>
+</html>
