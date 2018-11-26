@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./popimg.css">
 </head>
 <body>
     <div class="main-box">
@@ -18,8 +19,16 @@
         <div>我是文字我是文字我是文字我是文字</div>
         <img src="./images/6.jpg" alt="">
     </div>
+
     <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.js"></script>
     <script src="./popimg.js"></script>
+    <script>
+        //图片的父级需要添加宽度
+        // $('.mobile-gallery-img').css({'width':'375px'})
+        // setTimeout(function(){
+        //     $('.mobile-gallery-group').css({'width':'750px','transform':'translateX(-375px)','transition':'all 0.6s'})
+        // },3000)
+    </script>
     <script>
        $(function(){
            //使用方式，把需要展示图片的父节点传入即可
